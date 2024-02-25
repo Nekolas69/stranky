@@ -1,0 +1,160 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+/* HomePage.css */
+
+.homepage {
+  background-color: #0080ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* VATCalculator.css */
+
+.vat-calculator {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.vat-calculator label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.vat-calculator input[type='number'] {
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+/* CurrencyTransfer.css */
+
+.currency-transfer {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.currency-transfer label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.currency-transfer input[type='text'],
+.currency-transfer input[type='number'] {
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.currency-transfer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.currency-transfer button:hover {
+  background-color: #0056b3;
+}
+
+/* SavingInvestmentCalculator.css */
+
+.saving-investment-calculator {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.saving-investment-calculator label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.saving-investment-calculator input[type='number'] {
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.saving-investment-calculator button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saving-investment-calculator button:hover {
+  background-color: #218838;
+}
+
+/* LoginWindow.css */
+
+.login-window {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-window label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.login-window input[type='text'],
+.login-window input[type='password'] {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.login-window button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-window button:hover {
+  background-color: #c82333;
+}
